@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+    margin: 0%;
+}
+p {
+    text-align: center;
+}
+nav {
+    background-color: lightcoral;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(72, 138, 179);
+    font-size: 20px;
+}
+
+input {
+    display: block;
+    margin: 20px;
+}
+
+label {
+    padding: 20px 20px 20px;
+    color: darkgray;
+}
+
+.main-head {
+    color: lightskyblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}

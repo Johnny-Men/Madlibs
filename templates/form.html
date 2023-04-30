@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form action="/story">
+        {% for question in questions %}
+            <label for="">{{question}}: </label>
+            <input type="text" name ='{{question}}'>
+        {% endfor %}
+        <button>Submit</button>
+    </form>
+{% endblock %}
+
